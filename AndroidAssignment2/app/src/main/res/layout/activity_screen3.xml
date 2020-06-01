@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        tools:context=".Screen3">
+
+        <TextView
+            android:id="@+id/tv_screen3_place_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Screen3"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textColor="#2E2B2B"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#A58ECD"
+            android:layout_marginBottom="15dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_screen3_banner"
+            android:src="@drawable/no_image"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HDF dfskjsdf sdflkjdfs "
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#393232"
+            android:id="@+id/tv_screen3_comment"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

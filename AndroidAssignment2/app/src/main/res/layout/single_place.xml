@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_place_number"
+            android:fontFamily="sans-serif-condensed"
+            android:text="1."
+            android:gravity="center"
+            android:textColor="#423D3D"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_weight="9"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_place_name"
+            android:gravity="center_vertical|start"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Place Name"
+            android:textColor="#423D3D"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:id="@+id/iv_place_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_place"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#5F6AA0"/>
+
+
+</LinearLayout>

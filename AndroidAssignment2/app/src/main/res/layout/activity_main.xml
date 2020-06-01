@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:focusedByDefault="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_screen1_search_place"
+        android:hint="Search Place by Name"
+        android:background="@drawable/search_place_bg"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/placelist_bg"
+        android:id="@+id/recylerview_placelist"/>
+
+
+</LinearLayout>
